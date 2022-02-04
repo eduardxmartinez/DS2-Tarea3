@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tarea 3 -&nbsp;M&eacute;todos</h1>
+
+<h2>c&oacute;digo</h2>
+
+<p>import java.util.Scanner;</p>
+
+<p>public class DS2Tarea3 {<br />
+&nbsp; &nbsp;public static void main(String args[]){<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int z;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sumar();<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; desplegar(5);<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; z = cuadrado(10);<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(z);<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; raizCuadrada();<br />
+&nbsp; &nbsp;}<br />
+&nbsp; &nbsp;<br />
+&nbsp; &nbsp;public static void sumar() {<br />
+&nbsp; &nbsp; &nbsp; &nbsp; int n1,n2,suma;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in); &nbsp;&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; System.out.print(&quot;Valor 1 : &quot;);<br />
+&nbsp; &nbsp; &nbsp; &nbsp; n1 = sc.nextInt();<br />
+&nbsp; &nbsp; &nbsp; &nbsp; System.out.print(&quot;Valor 2 : &quot;);<br />
+&nbsp; &nbsp; &nbsp; &nbsp; n2 = sc.nextInt();<br />
+&nbsp; &nbsp; &nbsp; &nbsp; suma = n1 + n2;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;La suma es : &quot; + suma);<br />
+&nbsp; &nbsp;}<br />
+&nbsp; &nbsp;<br />
+&nbsp; &nbsp;public static void desplegar (int x) {<br />
+&nbsp; &nbsp; &nbsp; &nbsp;int i;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;for (i=1;i&lt;=x;i++) {<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.print(i+&quot; &quot;);<br />
+&nbsp; &nbsp; &nbsp; &nbsp;}<br />
+&nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;&quot;);<br />
+&nbsp; &nbsp;}<br />
+&nbsp; &nbsp;public static int cuadrado (int x) {<br />
+&nbsp; &nbsp; &nbsp; &nbsp;int resultado;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;resultado = x * x;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;return resultado;<br />
+&nbsp; &nbsp;}<br />
+&nbsp; &nbsp;public static void raizCuadrada () {<br />
+&nbsp; &nbsp; &nbsp; &nbsp;double resultado,n;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;Scanner sc = new Scanner(System.in);<br />
+&nbsp; &nbsp; &nbsp; &nbsp;System.out.print(&quot;Ingresa un valor: &quot;);<br />
+&nbsp; &nbsp; &nbsp; &nbsp;n = sc.nextDouble();<br />
+&nbsp; &nbsp; &nbsp; &nbsp;resultado = Math.pow(n, 0.5);<br />
+&nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;La ra&iacute;z cuadrada es: &quot; + resultado);<br />
+&nbsp; &nbsp;}</p>
+
+<p>&nbsp; }</p>
+
+<h2>Resultados:</h2>
+
+
+</body>
+</html>
